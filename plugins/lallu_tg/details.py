@@ -1,5 +1,8 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+
+
 
 
 @Client.on_message(filters.command("details"))
@@ -52,8 +55,12 @@ async def callback(bot, message):
         await reply7.delete()  
         
         await message.message.edit(  
-            text="HI"
-        )   
+            text=DETAILS_TXT
+            reply_markup=InlineKeyboardMarkup( [[ 
+                InlineKeyboardButton("JOIN OUR CHANNEL", url="t.me/Movietymofficial"),
+                InlineKeyboardButton("🔙",  callback_data="start")
+                ],[
+                InlineKeyboardButton("🔐CLOSE",  callback_data="close_data")
         
         
         
