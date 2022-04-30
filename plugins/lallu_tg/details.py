@@ -20,9 +20,12 @@ async def details(bot, message):
     #callback
     
     
+    
+    
 @Client.on_callback_query()
 async def callback(bot, message):
     if message.data == "details":
+        #loading code
         
         reply1 = await message.message.reply_text("L")
 
