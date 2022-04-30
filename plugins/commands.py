@@ -14,6 +14,7 @@ from database.connections_mdb import active_connection
 import re
 import json
 import base64
+import pytz
 
 
 logger = logging.getLogger(__name__)
@@ -22,6 +23,20 @@ BATCH_FILES = {}
 
 @Client.on_message(filters.command("start"))
 async def start(client, message):
+    
+    Out = datetime.datetime.now(pytz.timezone("Asia/Kolkata"))
+
+    Time = Out.hour
+    if Time < 12:
+        get="GOOD MORNING"
+    elif Time < 16:
+          get="GOOD AFTERNOON"
+    elif Time < 20:
+          get="GOOD EVENING"
+    else:
+        get="GOOD NIGHT"
+        
+    
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
@@ -41,15 +56,13 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('ADD ME TO YOUR GROUPS', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/MWUpdatez'),
-            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/OpusTechz')
-            ],[      
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
-            ],[
-            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')
+            InlineKeyboardButton('CHANNEL', url="t.me/Movietymofficial"),
+            InlineKeyboardButton('HELP', callback_data='help')
+            ],[ 
+            InlineKeyboardButton('ABOUT', callback_data='about'),
+            InlineKeyboardButton("🔐CLOSE", callback_data="close_data")
         ]]         
         reply_markup = InlineKeyboardMarkup(buttons)        
         await message.reply_photo(
