@@ -15,11 +15,12 @@ async def details(bot, message):
       <b>ID</b>   - {message.from_user.id}
  <b>Chat ID</b>   - {message.chat.id}
 <b>LAST SEEN</b>  - {last_online(from_user)}
-<b>USER LINK</b>  - {from_user.mention}""")
-    
-    #callback
-    
-    
+<b>USER LINK</b>  - {from_user.mention}"""
+        reply_markup=InlineKeyboardMarkup( [[   
+        InlineKeyboardButton("🔐CLOSE", callback_data="close_data")    
+        ]] 
+        )          
+    )
     
     
 @Client.on_callback_query()
@@ -64,7 +65,8 @@ async def callback(bot, message):
                 InlineKeyboardButton("🔙",  callback_data="start")
                 ],[
                 InlineKeyboardButton("🔐CLOSE",  callback_data="close_data")
-        
-        
+                ]] 
+                )    
+            )
         
         
