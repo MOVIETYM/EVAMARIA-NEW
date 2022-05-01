@@ -56,12 +56,14 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('ADD ME TO YOUR GROUPS', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕ADD ME TO YOUR GROUPS➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('CHANNEL', url="t.me/Movietymofficial"),
-            InlineKeyboardButton('HELP', callback_data='help')
+            InlineKeyboardButton('🚩CHANNEL', url="t.me/Movietymofficial"),
+            InlineKeyboardButton("📺GROUP📺", url="t.me/Movietym_official_group")
             ],[ 
             InlineKeyboardButton('ABOUT', callback_data='about'),
+            InlineKeyboardButton('🛡HELP🛡', callback_data='help')
+            ],[
             InlineKeyboardButton("🔐CLOSE", callback_data="close_data")
         ]]         
         reply_markup = InlineKeyboardMarkup(buttons)        
