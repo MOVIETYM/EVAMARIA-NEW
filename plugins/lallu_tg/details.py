@@ -9,7 +9,7 @@ import asyncio
 @Client.on_message(filters.command("details"))
 async def details(bot, message): 
     await message.reply_text(
-        text=f"""
+        text=f""",
 <b>First Name</b> - {message.from_user.first_name}
 <b>Last Name</b>  - {message.from_user.last_name}
 <b>User Name</b>  - {message.from_user.username}
