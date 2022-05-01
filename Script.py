@@ -55,8 +55,8 @@ Do as you wish with telegra.ph module!
 </b>USAGE:</b>
  /telegraph - Send me Picture or Video Under FIVE MB
 <b>NOTE:</b>
-• This Command Is Available in pms
-• This Command Can be used by everyone"""
+ This Command Is Available in pms
+ This Command Can be used by everyone"""
 
 
   PRIVATEBOT_TXT = f"""<b>HI {get} {message.from_user.mention}</b>"""
