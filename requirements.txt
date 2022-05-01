@@ -49,3 +49,5 @@ ffmpeg-python
 ffmpeg
 Pillow
 ujson
+pytz
+asyncio
