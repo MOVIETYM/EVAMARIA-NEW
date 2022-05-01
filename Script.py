@@ -50,7 +50,7 @@ Helps you to know your ping 🚶🏼‍♂️
 • This commands can be used in pms and groups
 
    
-   TELE_TXT = """<b>▫️HELP: Telegraph▪️</b>
+   TELE_TXT = """<b>HELP: Telegraph▪️</b>
 Do as you wish with telegra.ph module!
 </b>USAGE:</b>
 🤧 /telegraph - Send me Picture or Vide Under (5MB)
