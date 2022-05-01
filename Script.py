@@ -7,14 +7,15 @@ class script(object):
     HELP_TXT = """HEY {}
 HERE IS MY HELP COMMANDS."""
     ABOUT_TXT = """<b>✮ 𝙼𝚈 N𝙰𝙼𝙴 IS MINNAL MURALI</b>
-<b>✮ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/Aadhi011>𝙰𝙰𝙳𝙷𝙸</a></b>
-<b>✮ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</b>
-<b>✮ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹</b>
-<b>✮ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾-𝙳𝙱</b>
-<b>✮ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄</b>
-<b>✮ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: 𝚅1.0.43</b>
-<b>✮ 𝚄𝙿𝙳𝙰𝚃𝙴𝚂: <a href=https://t.me/MWUpdatez>𝙼𝚆-𝚄𝙿𝙳𝙰𝚃𝙴𝚉</a></b>"""
-    
+<b> LIBRARY: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</b>
+<b> LANGUAGE: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹</b>
+<b> DATA BASE: 𝙼𝙾𝙽𝙶𝙾-𝙳𝙱</b>
+<b> BOT SERVER: OKETO CLOUD</b>
+<b> BUILD STATUS: 𝚅1.0.45</b>
+<b> CHANNEL: <a href=https://t.me/Movietymofficial>MOVIE TIME</a></b>
+<b> GROUP: <a href=https://t.me/Movietym_official_group>MOVIE TIME GROUP</a></b>"""   
+
+
     FILE_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞 𝐌𝐨𝐝𝐮𝐥𝐞../
 
 <b>𝙱𝚈 𝚄𝚂𝙸𝙽𝙶 𝚃𝙷𝙸𝚂 𝙼𝙾𝙳𝚄𝙻𝙴 𝚈𝙾𝚄 𝙲𝙰𝙽 𝚂𝚃𝙾𝚁𝙴 𝙵𝙸𝙻𝙴𝚂 𝙸𝙽 𝙼𝚈 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴 𝙰𝙽𝙳 𝙸 𝚆𝙸𝙻𝙻 𝙶𝙸𝚅𝙴 𝚈𝙾𝚄 𝙰 𝙿𝙴𝚁𝙼𝙰𝙽𝙴𝙽𝚃 𝙻𝙸𝙽𝙺  𝚃𝙾 𝙰𝙲𝙲𝙴𝚂𝚂 𝚃𝙷𝙴 𝚂𝙰𝚅𝙴𝙳 𝙵𝙸𝙻𝙴𝚂.𝙸𝙵 𝚈𝙾𝚄 𝚆𝙰𝙽𝚃 𝚃𝙾 𝙰𝙳𝙳 𝙵𝙸𝙻𝙴𝚂 𝙵𝚁𝙾𝙼 𝙰 𝙿𝚄𝙱𝙻𝙸𝙲 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝚂𝙴𝙽𝙳 𝚃𝙷𝙴 𝙵𝙸𝙻𝚆 𝙻𝙸𝙽𝙺 𝙾𝙽𝙻𝚈  𝙾𝚁 𝚈𝙾𝚄 𝚆𝙰𝙽𝚃 𝚃𝙾 𝙰𝙳𝙳 𝙵𝙸𝙻𝙴𝚂 𝙵𝚁𝙾𝙼 𝙰  𝙿𝚁𝙸𝚅𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝚈𝙾𝚄 𝙼𝚄𝚂𝚃 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽 𝙾𝙽 𝚃𝙷𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝚃𝙾 𝙰𝙲𝙲𝙴𝚂𝚂 𝙵𝙸𝙻𝙴𝚂...//</b>
@@ -43,7 +44,7 @@ Note:- Give a user details
 4. /Goal or /Shoot - 𝚃𝙾 𝙼𝙰𝙺𝙴 𝙰 𝙶𝙾𝙰𝙻 𝙾𝚁 𝚂𝙷𝙾𝙾𝚃
 5. /luck or /cownd - 𝚂𝙿𝙸𝙽 𝙰𝙽𝙳 𝚃𝚁𝚈 𝚈𝙾𝚄𝚁 𝙻𝚄𝙲𝙺"""
    
-    SONG_TXT = """<b>𝚂𝙾𝙽𝙶 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝙳𝚄𝙻𝙴</b>
+    SONG_TXT = """<b>SONG DOWNLOAD TOOL</b>
 
 <b>𝚂𝙾𝙽𝙶 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝙳𝚄𝙻𝙴, 𝙵𝙾𝚁 𝚃𝙷𝙾𝚂𝙴 𝚆𝙷𝙾 𝙻𝙾𝚅𝙴 𝙼𝚄𝚂𝙸𝙲. 𝚈𝙾𝚄 𝙲𝙰𝙽 𝚄𝚂𝙴 𝚃𝙷𝙸𝚂 𝙵𝙴𝙰𝚃𝚄𝙴 𝙵𝙾𝚁 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙰𝙽𝚈 𝚂𝙾𝙽𝙶 𝚆𝙸𝚃𝙷 𝚂𝚄𝙿𝙴𝚁 𝙵𝙰𝚂𝚃 𝚂𝙿𝙴𝙴𝙳../</b>
 
@@ -63,18 +64,21 @@ Helps you to know your ping 🚶🏼‍♂️
 • /channel - Channel Details.
 <b>🏹Usage🏹 :</b>
 • This commands can be used in pms and groups
-    TELE_TXT = """<b>▫️HELP: Telegraph▪️</b>
+
+   
+   TELE_TXT ="""<b>Telegraph Module</b>
 
 Do as you wish with telegra.ph module!
 
 </b>USAGE:</b>
 
-🤧 /telegraph - Send me Picture or Vide Under (5MB)
+/telegraph - Send me Picture or Vide Under (5MB)
 
 <b>NOTE:</b>
 
-• This Command Is Available in goups and pms
+• This Command Is Available in pm
 • This Command Can be used by everyone"""
+
 
   PRIVATEBOT_TXT = f"""<b>HI {get} {message.from_user.mention}</b>"""
 
