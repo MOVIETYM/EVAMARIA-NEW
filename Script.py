@@ -53,7 +53,7 @@ Helps you to know your ping 🚶🏼‍♂️
    TELE_TXT = """<b>Telegraph Module</b>
 Do as you wish with telegra.ph module!
 </b>USAGE:</b>
-🤧 /telegraph - Send me Picture or Vide Under (5MB)
+ /telegraph - Send me Picture or Vide Under (5MB)
 <b>NOTE:</b>
 • This Command Is Available in pms
 • This Command Can be used by everyone"""
