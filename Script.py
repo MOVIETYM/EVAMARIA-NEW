@@ -17,7 +17,7 @@ HERE IS MY HELP COMMANDS."""
 
     DETAILS_TXT ="""<b>DETAILS MODULE </b>
 Note:- Give a user details
-•/details :-give a user full details"""
+/details :-give a user full details"""
     FUN_TXT ="""<b>Gᴀᴍᴇs</b> 
     
 <b>⚡ 𝙹𝚄𝚂𝚃 𝚂𝙾𝙼𝙴 𝙺𝙸𝙽𝙳 𝙾𝙵 𝙵𝚄𝙽 𝚃𝙷𝙸𝙽𝙶'𝚂 ⚡</b>
@@ -43,11 +43,11 @@ Helps you to know your ping 🚶🏼‍♂️
 
 <b>Commands:</b>
 
-• /alive - To check you are alive.
-• /ping - To get your ping.
-• /channel - Channel Details.
+ /alive - To check you are alive.
+ /ping - To get your ping.
+ /channel - Channel Details.
 <b>🏹Usage🏹 :</b>
-• This commands can be used in pms and groups
+ This commands can be used in pms and groups
 
    
    TELE_TXT = """<b>Telegraph Module</b>
@@ -80,7 +80,7 @@ Delete A Lot Of Messages From Groups!
     
  <b>ADMIN</b> 
 
-◉ /purge :- Delete All Messages From The Replied To Message, To The Current Message"""
+ /purge :- Delete All Messages From The Replied To Message, To The Current Message"""
    
     CONNECTION_TXT = """Help: <b>Connections</b>
 
@@ -101,10 +101,10 @@ Delete A Lot Of Messages From Groups!
 these are the extra features of MINNAL MURALI
 
 <b>Commands and Usage:</b>
-• /id - <code>get id of a specifed user.</code>
-• /details  - <code>get information about a user.</code>
-• /imdb  - <code>get the film information from IMDb source.</code>
-• /search  - <code>get the film information from various sources.</code>"""
+ /id - <code>get id of a specifed user.</code>
+ /details  - <code>get information about a user.</code>
+ /imdb  - <code>get the film information from IMDb source.</code>
+ /search  - <code>get the film information from various sources.</code>"""
   
     STATUS_TXT = """<b>᚛› 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code></b>
 <b>᚛› 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code></b>
