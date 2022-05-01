@@ -9,7 +9,7 @@ from plugins.helper_functions.cust_p_filters import f_onw_fliter
 
 # -- Constants -- #
 ALIVE = "I AM ALWAYS ALIVE BRO⚡️ITS MINNAL TIME⚡️💥"
-MAIN CHANNEL = "<b>MOVIE TIME</b> ›› https://t.me/Movietymofficial"
+CHANNEL = "<b>MOVIE TIME</b> ›› https://t.me/Movietymofficial"
 # -- Constants End -- #
 
 
