@@ -61,8 +61,10 @@ async def start(client, message):
             InlineKeyboardButton('🚩CHANNEL', url="t.me/Movietymofficial"),
             InlineKeyboardButton("📺GROUP📺", url="t.me/Movietym_official_group")
             ],[ 
-            InlineKeyboardButton('ABOUT', callback_data='about'),
-            InlineKeyboardButton('🛡HELP🛡', callback_data='help')
+            InlineKeyboardButton('🔍SEARCH', switch_inline_query_current_chat='')
+            ],[
+            InlineKeyboardButton('🛡HELP🛡', callback_data='help'),
+            InlineKeyboardButton('ABOUT', callback_data='about')
             ],[
             InlineKeyboardButton("🔐CLOSE", callback_data="close_data")
         ]]         
@@ -83,31 +85,33 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🔥 JOIИ CHΛИИΞL 🔥", url=invite_link.invite_link
+                    "🔥JOIN CHANNEL🔥", url=invite_link.invite_link
                 )
             ]
         ]
 
         if message.command[1] != "subscribe":
-            btn.append([InlineKeyboardButton("🔁 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 🔁", callback_data=f"checksub#{message.command[1]}")])
+            btn.append([InlineKeyboardButton("🔁 TRY AGAIN 🔁", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**𝑱𝒐𝒊𝒏 𝑶𝒖𝒓 𝑴𝒐𝒗𝒊𝒆 𝑼𝒑𝒅𝒂𝒕𝒆𝒔 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 𝑻𝒐 𝑼𝒔𝒆 𝑻𝒉𝒊𝒔 𝑩𝒐𝒕!**",
+            text="**JOIN OUR CHANNEL TO USE OUR BOT🔒.PLZ JOIN...**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode="markdown"
             )
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕ADD ME TO YOUR GROUPS➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/MWUpdatez'),
-            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/OpusTechz')
-            ],[      
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('🚩CHANNEL', url="t.me/Movietymofficial"),
+            InlineKeyboardButton("📺GROUP📺", url="t.me/Movietym_official_group")
+            ],[    
+            InlineKeyboardButton('🔍SEARCH', switch_inline_query_current_chat='')
+            ],[   
+            InlineKeyboardButton('🛡HELP🛡', callback_data='help'),
+            InlineKeyboardButton('ABOUT', callback_data='about')
             ],[
-            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')
+            InlineKeyboardButton("🔐CLOSE", callback_data="close_data")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
