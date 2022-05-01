@@ -8,7 +8,7 @@ from plugins.helper_functions.get_file_id import get_file_id
 
 
 @Client.on_message(
-    filters.command("telegraph") &
+    filters.private  & filters.command("telegraph") &
     f_onw_fliter
 )
 async def telegraph(client, message):
