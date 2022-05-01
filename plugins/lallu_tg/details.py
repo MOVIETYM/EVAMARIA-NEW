@@ -10,7 +10,7 @@ from plugins.helper_functions.last_online_hlpr import last_online
 
 
 @Client.on_message(
-    filters.command(["details",], COMMAND_HAND_LER) &
+    filters.command(["details", "info"], COMMAND_HAND_LER) &
     f_onw_fliter
 )
 async def who_is(client, message):
