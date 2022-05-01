@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-import  asyncio
+import asyncio
 
 
 
@@ -18,7 +18,7 @@ async def details(bot, message):
 <b>LAST SEEN</b>  - {last_online(from_user)}
 <b>USER LINK</b>  - {from_user.mention}"""
         reply_markup=InlineKeyboardMarkup( [[   
-        InlineKeyboardButton("🔐CLOSE", callback_data="close_data")    
+        InlineKeyboardButton("🔐CLOSE", callback_data="close_data")
         ]] 
         )          
     )
@@ -63,7 +63,7 @@ async def callback(bot, message):
             text=DETAILS_TXT
             reply_markup=InlineKeyboardMarkup( [[ 
                 InlineKeyboardButton("JOIN OUR CHANNEL", url="t.me/Movietymofficial"),
-                InlineKeyboardButton("🔙",  callback_data="start")
+                InlineKeyboardButton("🔙",  callback_data="help")
                 ],[
                 InlineKeyboardButton("🔐CLOSE",  callback_data="close_data")
                 ]] 
