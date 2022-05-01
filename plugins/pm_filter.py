@@ -850,7 +850,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝚄𝚁𝙻-𝚂𝙷𝙾𝚁𝚃', callback_data='urlshort'),
             InlineKeyboardButton('𝙶-𝚃𝚁𝙰𝙽𝚂', callback_data='gtrans')
             ],[
-            InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚄𝚂', callback_data='stats')
+            InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚄𝚂', callback_data='stats'),
             InlineKeyboardButton("🔙BACK",  callback_data="start")
             ],[
             InlineKeyboardButton("🔐CLOSE", callback_data="close_data")
