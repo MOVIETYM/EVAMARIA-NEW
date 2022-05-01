@@ -55,7 +55,6 @@ Helps you to know your ping 🚶🏼‍♂️
 Do as you wish with telegra.ph module!
 
 </b>USAGE:</b>
-
 /telegraph - Send me Picture or Vide Under (5MB)
 
 <b>NOTE:</b>
