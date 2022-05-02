@@ -18,6 +18,14 @@ import datetime
 import pytz
 
 
+
+
+ALL_PIC = [
+  "https://telegra.ph/file/f844db93d336c13894d5e.jpg",
+  "https://telegra.ph/file/69e16ce80ffacd0f2b588.jpg"
+]
+
+
 logger = logging.getLogger(__name__)
 
 BATCH_FILES = {}
@@ -46,8 +54,9 @@ async def start(client, message):
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await message.reply_text(
-            text=f"""HI {get} {message.from_user.mention} HOW ARE YOU""", reply_markup=reply_markup)
+        await message.reply_photo(
+            photo=random.choice(ALL_PIC),
+            caption=f"""HI {get} {message.from_user.mention} HOW ARE YOU?""", reply_markup=reply_markup)
         await asyncio.sleep(2) # 😢 https://github.com/Aadhi000/Ajax-Extra-Features/blob/master/plugins/p_ttishow.py#L17 😬 wait a bit, before checking.  #COPIED
         if not await db.get_chat(message.chat.id):
             total=await client.get_chat_members_count(message.chat.id)
