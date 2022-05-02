@@ -151,31 +151,31 @@ async def who_is(client, message):
 @Client.on_message(filters.command("help"))
 async def help(client, message):
         buttons = [[
-            InlineKeyboardButton('𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙸𝙾𝙽𝚂', callback_data='coct'),
-            InlineKeyboardButton('𝚂𝙾𝙽𝙶', callback_data='songs')
+            InlineKeyboardButton('⚙️ᴄᴏɴɴᴇᴄᴛɪᴏɴꜱ⚙️', callback_data='coct'),
+            InlineKeyboardButton('🎶𝚂𝙾𝙽𝙶🎶', callback_data='songs')
             ],[
-            InlineKeyboardButton('𝙴𝚇𝚃𝚁𝙰', callback_data='extra'),
+            InlineKeyboardButton('【﻿𝙴𝚇𝚃𝚁𝙰】', callback_data='extra'),
             InlineKeyboardButton('𝙿𝙰𝚂𝚃𝙴', callback_data='pastes')
             ],[
-            InlineKeyboardButton("𝙸𝙼𝙰𝙶𝙴", callback_data='image'),
-            InlineKeyboardButton('𝙵𝚄𝙽', callback_data='fun')
+            InlineKeyboardButton("★ 𝙸𝙼𝙰𝙶𝙴 ★", callback_data='image'),
+            InlineKeyboardButton('⡷⠂𝙵𝚄𝙽⠐⢾', callback_data='fun')
             ],[
-            InlineKeyboardButton('𝙹𝚂𝙾𝙽𝙴', callback_data='son'),
-            InlineKeyboardButton('𝙿𝙸𝙽𝙶', callback_data='pings')
+            InlineKeyboardButton('║▌║ 𝙹𝚂𝙾𝙽𝙴 ║▌║▌', callback_data='son'),
+            InlineKeyboardButton('𒆜 𝙿𝙸𝙽𝙶 𒆜', callback_data='pings')
             ],[
-            InlineKeyboardButton('𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙿𝙷', callback_data='tele'),
-            InlineKeyboardButton('DETAILS', callback_data='details')
+            InlineKeyboardButton('☆ 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙿𝙷 ☆', callback_data='tele'),
+            InlineKeyboardButton('»🅳🅴🆃🅰🅸🅻🆂«', callback_data='details')
             ],[
-            InlineKeyboardButton('𝚁𝙴𝙿𝙾𝚁𝚃', callback_data='report'),
-            InlineKeyboardButton('𝚂𝚃𝙸𝙲𝙺𝙴𝚁-𝙸𝙳', callback_data='sticker')
+            InlineKeyboardButton('▇ 𝚁𝙴𝙿𝙾𝚁𝚃 ▇ ', callback_data='report'),
+            InlineKeyboardButton('█►𝚂𝚃𝙸𝙲𝙺𝙴𝚁-𝙸𝙳◄█', callback_data='sticker')
             ],[
-            InlineKeyboardButton('𝚄𝚁𝙻-𝚂𝙷𝙾𝚁𝚃', callback_data='urlshort'),
-            InlineKeyboardButton('𝙶-𝚃𝚁𝙰𝙽𝚂', callback_data='gtrans')
+            InlineKeyboardButton('𒆜 𝚄𝚁𝙻-𝚂𝙷𝙾𝚁𝚃 𒆜', callback_data='urlshort'),
+            InlineKeyboardButton('▄ 𝙶-𝚃𝚁𝙰𝙽𝚂 ▄', callback_data='gtrans')
             ],[
-            InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚄𝚂', callback_data='stats'),
+            InlineKeyboardButton('🆂🆃🅰🆃🆄🆂', callback_data='stats'),
             InlineKeyboardButton("🔙BACK",  callback_data="start")
             ],[
-            InlineKeyboardButton("🔐CLOSE", callback_data="close_data") 
+            InlineKeyboardButton("🔐CLOSE", callback_data="close_data")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
