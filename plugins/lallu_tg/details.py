@@ -34,17 +34,17 @@ async def who_is(client, message):
     username = from_user.username or ""
     
     message_out_str = (
-        "<b>› NAME :</b> "
+        "<b>  NAME :</b> "
         f"<a href='tg://user?id={from_user.id}'>{first_name}</a>\n"
-        f"<b>› SUFFIX :</b> {last_name}\n"
-        f"<b>› USERNAME :</b> @{username}\n"
-        f"<b>› USER ID :</b> <code>{from_user.id}</code>\n"
-        f"<b>› USER LINK :</b> {from_user.mention}\n" if from_user.username else ""
-        f"<b>› 𝙸𝚂 𝙰𝙲𝙲𝙾𝚄𝙽𝚃 𝙳𝙴𝙻𝙴𝚃𝙴𝙳 :</b> True\n" if from_user.is_deleted else ""
-        f"<b>› 𝙸𝚂 𝚅𝙴𝚁𝙸𝙵𝙸𝙴𝙳 :</b> True" if from_user.is_verified else ""
-        f"<b>› 𝙸𝚂 𝚂𝙲𝙰𝙼 :</b> True" if from_user.is_scam else ""
+        f"<b>  SUFFIX :</b> {last_name}\n"
+        f"<b>  USERNAME :</b> @{username}\n"
+        f"<b>  USER ID :</b> <code>{from_user.id}</code>\n"
+        f"<b>  USER LINK :</b> {from_user.mention}\n" if from_user.username else ""
+        f"<b>  𝙸𝚂 𝙰𝙲𝙲𝙾𝚄𝙽𝚃 𝙳𝙴𝙻𝙴𝚃𝙴𝙳 :</b> True\n" if from_user.is_deleted else ""
+        f"<b>  𝙸𝚂 𝚅𝙴𝚁𝙸𝙵𝙸𝙴𝙳 :</b> True" if from_user.is_verified else ""
+        f"<b>  𝙸𝚂 𝚂𝙲𝙰𝙼 :</b> True" if from_user.is_scam else ""
         # f"<b>Is Fake:</b> True" if from_user.is_fake else ""
-        f"<b>᚛› 𝙻𝙰𝚂𝚃 𝚂𝙴𝙴𝙽 :</b> <code>{last_online(from_user)}</code>\n\n"
+        f"<b>  𝙻𝙰𝚂𝚃 𝚂𝙴𝙴𝙽 :</b> <code>{last_online(from_user)}</code>\n\n"
     )
 
     if message.chat.type in ["supergroup", "channel"]:
