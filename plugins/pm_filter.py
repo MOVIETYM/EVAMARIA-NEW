@@ -800,20 +800,20 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('【﻿𝙴𝚇𝚃𝚁𝙰】', callback_data='extra'),
             InlineKeyboardButton('𝙿𝙰𝚂𝚃𝙴', callback_data='pastes')
             ],[
-            InlineKeyboardButton("★𝙸𝙼𝙰𝙶𝙴★", callback_data='image'),
+            InlineKeyboardButton("★ 𝙸𝙼𝙰𝙶𝙴 ★", callback_data='image'),
             InlineKeyboardButton('⡷⠂𝙵𝚄𝙽⠐⢾', callback_data='fun')
             ],[
             InlineKeyboardButton('║▌║ 𝙹𝚂𝙾𝙽𝙴 ║▌║▌', callback_data='son'),
-            InlineKeyboardButton('⫷ 𝙿𝙸𝙽𝙶 ⫸', callback_data='pings')
+            InlineKeyboardButton('𒆜 𝙿𝙸𝙽𝙶 𒆜', callback_data='pings')
             ],[
-            InlineKeyboardButton('☆☆ 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙿𝙷 ☆☆', callback_data='tele'),
-            InlineKeyboardButton(']» 🅳🅴🆃🅰🅸🅻🆂 «[', callback_data='details')
+            InlineKeyboardButton('☆ 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙿𝙷 ☆', callback_data='tele'),
+            InlineKeyboardButton('»🅳🅴🆃🅰🅸🅻🆂«', callback_data='details')
             ],[
-            InlineKeyboardButton('▇ █ 𝚁𝙴𝙿𝙾𝚁𝚃 █ ▇ ', callback_data='report'),
-            InlineKeyboardButton('█►─═ 𝚂𝚃𝙸𝙲𝙺𝙴𝚁-𝙸𝙳 ═─◄█', callback_data='sticker')
+            InlineKeyboardButton('▇ 𝚁𝙴𝙿𝙾𝚁𝚃 ▇ ', callback_data='report'),
+            InlineKeyboardButton('█►𝚂𝚃𝙸𝙲𝙺𝙴𝚁-𝙸𝙳◄█', callback_data='sticker')
             ],[
-            InlineKeyboardButton('⫷ 𝚄𝚁𝙻-𝚂𝙷𝙾𝚁𝚃 ⫸', callback_data='urlshort'),
-            InlineKeyboardButton('▀▄▀▄ 𝙶-𝚃𝚁𝙰𝙽𝚂 ▄▀▄▀', callback_data='gtrans')
+            InlineKeyboardButton('𒆜 𝚄𝚁𝙻-𝚂𝙷𝙾𝚁𝚃 𒆜', callback_data='urlshort'),
+            InlineKeyboardButton('▄ 𝙶-𝚃𝚁𝙰𝙽𝚂 ▄', callback_data='gtrans')
             ],[
             InlineKeyboardButton('🆂🆃🅰🆃🆄🆂', callback_data='stats'),
             InlineKeyboardButton("🔙BACK",  callback_data="start")
@@ -834,20 +834,20 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('【﻿𝙴𝚇𝚃𝚁𝙰】', callback_data='extra'),
             InlineKeyboardButton('𝙿𝙰𝚂𝚃𝙴', callback_data='pastes')
             ],[
-            InlineKeyboardButton("★𝙸𝙼𝙰𝙶𝙴★", callback_data='image'),
+            InlineKeyboardButton("★ 𝙸𝙼𝙰𝙶𝙴 ★", callback_data='image'),
             InlineKeyboardButton('⡷⠂𝙵𝚄𝙽⠐⢾', callback_data='fun')
             ],[
             InlineKeyboardButton('║▌║ 𝙹𝚂𝙾𝙽𝙴 ║▌║▌', callback_data='son'),
-            InlineKeyboardButton('⫷ 𝙿𝙸𝙽𝙶 ⫸', callback_data='pings')
+            InlineKeyboardButton('𒆜 𝙿𝙸𝙽𝙶 𒆜', callback_data='pings')
             ],[
-            InlineKeyboardButton('☆☆ 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙿𝙷 ☆☆', callback_data='tele'),
-            InlineKeyboardButton(']» 🅳🅴🆃🅰🅸🅻🆂 «[', callback_data='details')
+            InlineKeyboardButton('☆ 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙿𝙷 ☆', callback_data='tele'),
+            InlineKeyboardButton('»🅳🅴🆃🅰🅸🅻🆂«', callback_data='details')
             ],[
-            InlineKeyboardButton('▇ █ 𝚁𝙴𝙿𝙾𝚁𝚃 █ ▇ ', callback_data='report'),
-            InlineKeyboardButton('█►─═ 𝚂𝚃𝙸𝙲𝙺𝙴𝚁-𝙸𝙳 ═─◄█', callback_data='sticker')
+            InlineKeyboardButton('▇ 𝚁𝙴𝙿𝙾𝚁𝚃 ▇ ', callback_data='report'),
+            InlineKeyboardButton('█►𝚂𝚃𝙸𝙲𝙺𝙴𝚁-𝙸𝙳◄█', callback_data='sticker')
             ],[
-            InlineKeyboardButton('⫷ 𝚄𝚁𝙻-𝚂𝙷𝙾𝚁𝚃 ⫸', callback_data='urlshort'),
-            InlineKeyboardButton('▀▄▀▄ 𝙶-𝚃𝚁𝙰𝙽𝚂 ▄▀▄▀', callback_data='gtrans')
+            InlineKeyboardButton('𒆜 𝚄𝚁𝙻-𝚂𝙷𝙾𝚁𝚃 𒆜', callback_data='urlshort'),
+            InlineKeyboardButton('▄ 𝙶-𝚃𝚁𝙰𝙽𝚂 ▄', callback_data='gtrans')
             ],[
             InlineKeyboardButton('🆂🆃🅰🆃🆄🆂', callback_data='stats'),
             InlineKeyboardButton("🔙BACK",  callback_data="start")
