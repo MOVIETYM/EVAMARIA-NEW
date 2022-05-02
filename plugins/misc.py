@@ -76,7 +76,7 @@ async def aboutme(client, message):
         )
 
 @Client.on_message(filters.command(["info"]))
-async def who_is(client, message):
+async def who(client, message):
     # https://github.com/SpEcHiDe/PyroGramBot/blob/master/pyrobot/plugins/admemes/whois.py#L19
     status_message = await message.reply_text(
         "`𝚂𝙴𝙰𝚁𝙲𝙷𝙸𝙽𝙶 𝚄𝚂𝙴𝚁...`"
