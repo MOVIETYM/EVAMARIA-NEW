@@ -2,13 +2,13 @@ class script(object):
     START_TXT = """HI {},
 MY NAME IS <a href=https://t.me/{}>{}</a>, I CAN PROVIDE MOVIES, JUST ADD ME TO YOUR GROUPS AND MAKE ME ADMIN...🤩"""
     HELP_TXT = """HEY {}
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """<b>✮ 𝙼𝚈 𝙽𝙰𝙼𝙴: MINNAL MURALI</b>
-<b>✮ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</b>
-<b>✮ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹</b>
-<b>✮ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾-𝙳𝙱</b>
-<b>✮ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: OKETO CLOUD</b>
-<b>✮ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: 𝚅1.0.45</b>
+𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂.."""
+    ABOUT_TXT = """<b>✮ MY NAME: MINNAL MURALI</b>
+<b>✮ LIBRARY: PYROGRAM</b>
+<b>✮ LANGUAGE: PYTHON 3</b>
+<b>✮ DATA BASE: MANGO-DB</b>
+<b>✮ BOT SERVER: OKETO CLOUD</b>
+<b>✮ BUILD STATUS: 𝚅1.0.45</b>
 <b>✮ CHANNEL: <a href=https://t.me/Movietymofficial>MOVIE TIME</a></b>
 <b>✮ GROUP: <a href=https://t.me/Movietym_official_group>MOVIE TIME GROUP</a></b>"""
     DONATION_TXT = """<b>𝐃𝐨𝐧𝐚𝐭𝐢𝐨𝐧 & 𝐏𝐚𝐢𝐝 𝐏𝐫𝐨𝐦𝐨𝐭𝐢𝐨𝐧</b> 
@@ -59,9 +59,9 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐖𝐢𝐭𝐡 𝐘𝐨𝐮𝐫 𝐂�
 <code>/batch https://t.me/MWUpdatez/3 https://t.me/MWUpdatez/8</code>
 
 𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href=https://t.me/MWUpdatez><b>𝙼𝚆-𝚄𝙿𝙳𝙰𝚃𝙴𝚉</b></a>"""
-    WHOIS_TXT ="""<b>WHOIS MODULE</b>
+    WHOIS_TXT ="""<b>DETAILS TOOLS</b>
 Note:- Give a user details
-•/whois :-give a user full details"""
+•/details :-give a user full details"""
     FUN_TXT ="""<b>Gᴀᴍᴇs</b> 
     
 <b>⚡ 𝙹𝚄𝚂𝚃 𝚂𝙾𝙼𝙴 𝙺𝙸𝙽𝙳 𝙾𝙵 𝙵𝚄𝙽 𝚃𝙷𝙸𝙽𝙶'𝚂 ⚡</b>
@@ -93,15 +93,15 @@ Note:- Give a user details
 • /filters - <code>list all the filters of a chat</code>
 • /del - <code>delete a specific filter in chat</code>
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
-    SONG_TXT = """<b>🎶𝚂𝙾𝙽𝙶 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝙳𝚄𝙻𝙴🎶</b>
+    SONG_TXT = """<b>🎶SONG DOWNLOAD MODULE🎶</b>
 
-🎶 𝚂𝙾𝙽𝙶 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝙳𝚄𝙻𝙴, 𝙵𝙾𝚁 𝚃𝙷𝙾𝚂𝙴 𝚆𝙷𝙾 𝙻𝙾𝚅𝙴 𝙼𝚄𝚂𝙸𝙲. 𝚈𝙾𝚄 𝙲𝙰𝙽 𝚄𝚂𝙴 𝚃𝙷𝙸𝚂 𝙵𝙴𝙰𝚃URE TO 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙰𝙽𝚈 𝚂𝙾𝙽𝙶 𝚆𝙸𝚃𝙷 𝚂𝚄𝙿𝙴𝚁 𝙵𝙰𝚂𝚃 𝚂𝙿𝙴𝙴D 𝚆𝙾𝚁𝙺𝚂 🎶
+🎶 SONG DOWNLOAD MODULE, FOR THOSE WHO LOVES MUSIC YOU CAN USE THIS FEATURE TO DOWNLOAD ANY SONG WITH SUPER SPEED 🎶
 
-<b>𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂</b>
+<b>COMMANDS</b>
 
-››  /song 𝚂𝙾𝙽𝙶 𝙽𝙰𝙼𝙴
+››  /song SONG NAME
 
-NOTE:- 𝚆𝙾𝚁𝙺𝚂 𝙾N BOTH PMS AND 𝙶𝚁𝙾𝚄𝙿🎶"""
+NOTE:- WORKS ON BOTH PMS AND GROUP🎶"""
     PIN_TXT ="""<b>PIN MODULE</b>
 <b>𝙿𝙸𝙽 𝙰 𝙼𝙴𝚂𝚂𝙰𝙶𝙴../</b>
 
@@ -136,7 +136,7 @@ Translate text to speech
 • IMDb should have admin privillage.
 • These commands works on both pm and group.
 • IMDb can translate texts to 200+ languages."""
-    PINGS_TXT ="""<b>🌟 Ping:</b>
+    PINGS_TXT ="""<b>🌟Ping:</b>
 
 Helps you to know your ping 🚶🏼‍♂️
 
@@ -146,7 +146,8 @@ Helps you to know your ping 🚶🏼‍♂️
 • /help - To get help.
 • /ping - To get your ping.
 • /channel - Channel Details.
-<b>🏹Usage🏹 :</b>
+
+<b>🏹Usage🏹:</b>
 
 • This commands can be used in pms and groups"""
     
