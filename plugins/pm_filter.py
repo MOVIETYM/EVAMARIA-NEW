@@ -879,6 +879,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "restric":
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
+            ],[
+            InlineKeyboardButton('🔒CLOSE🔒', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -890,6 +892,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "image":
         buttons= [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
+            ],[
+            InlineKeyboardButton('🔒CLOSE🔒', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -901,6 +905,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "details":
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
+            ],[
+            InlineKeyboardButton('🔒CLOSE🔒', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -911,6 +917,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "corona":
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
+            ],[
+            InlineKeyboardButton('🔒CLOSE🔒', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -922,6 +930,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "urlshort":
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
+            ],[
+            InlineKeyboardButton('🔒CLOSE🔒', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -933,6 +943,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "zombies":
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
+            ],[
+            InlineKeyboardButton('🔒CLOSE🔒', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -944,6 +956,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "fun":
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
+            ],[
+            InlineKeyboardButton('🔒CLOSE🔒', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -954,6 +968,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "video":
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='song')
+            ],[
+            InlineKeyboardButton('🔒CLOSE🔒', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -964,6 +980,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "pin":
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
+            ],[
+            InlineKeyboardButton('🔒CLOSE🔒', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -974,6 +992,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "son":
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
+            ],[
+            InlineKeyboardButton('🔒CLOSE🔒', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -984,6 +1004,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "pastes":
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
+            ],[
+            InlineKeyboardButton('🔒CLOSE🔒', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -994,6 +1016,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "pings":
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
+            ],[
+            InlineKeyboardButton('🔒CLOSE🔒', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1004,6 +1028,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "ttss":
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
+            ],[
+            InlineKeyboardButton('🔒CLOSE🔒', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1014,6 +1040,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "purges":
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
+            ],[
+            InlineKeyboardButton('🔒CLOSE🔒', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1024,6 +1052,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "tele":
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
+            ],[
+            InlineKeyboardButton('🔒CLOSE🔒', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1034,6 +1064,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "source":
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='about')
+            ],[
+            InlineKeyboardButton('🔒CLOSE🔒', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1075,6 +1107,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "coct":
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
+            ],[
+            InlineKeyboardButton('🔒CLOSE🔒', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1084,8 +1118,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "extra":
         buttons = [[
-            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help'),
-            InlineKeyboardButton('𝙰𝙳𝙼𝙸𝙽', callback_data='admin')
+            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
+            ],[
+            InlineKeyboardButton('🔒CLOSE🔒', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1097,6 +1132,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help'),
             InlineKeyboardButton('𝙻𝙰𝙽𝙶 𝙲𝙾𝙳𝙴𝚂', url='https://cloud.google.com/translate/docs/languages')
+            ],[
+            InlineKeyboardButton('🔒CLOSE🔒', callback_data='close_data')
+            
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1108,6 +1146,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "report":
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
+            ],[
+            InlineKeyboardButton('🔒CLOSE🔒', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1119,6 +1159,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "sticker":
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
+            ],[
+            InlineKeyboardButton('🔒CLOSE🔒', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1130,6 +1172,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "ytthumb":
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
+            ],[
+            InlineKeyboardButton('🔒CLOSE🔒', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1172,6 +1216,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "songs":
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
+            ],[
+            InlineKeyboardButton('🔒CLOSE🔒', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1193,6 +1239,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help'),
             InlineKeyboardButton('𝚁𝙴𝙵𝚁𝙴𝚂𝙷', callback_data='rfrsh')
+            ],[
+            InlineKeyboardButton('🔒CLOSE🔒', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
@@ -1212,6 +1260,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help'),
             InlineKeyboardButton('𝚁𝙴𝙵𝚁𝙴𝚂𝙷', callback_data='rfrsh')
+            ],[
+            InlineKeyboardButton('🔒CLOSE🔒', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
@@ -1494,3 +1544,4 @@ async def manual_filters(client, message, text=False):
         return False
 
 #ᗩᒍᗩ᙭
+#MOVIE TIME 
