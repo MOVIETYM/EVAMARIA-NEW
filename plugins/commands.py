@@ -41,7 +41,8 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('MAIN CHANNEL', url="t.me/Movietymofficial")
+                InlineKeyboardButton('⚡️CHANNEL⚡️', url="t.me/Movietymofficial"),
+                InlineKeyboardButton('✉️GROUP✉️', url="t.me/Movietym_official_group")
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
