@@ -168,7 +168,7 @@ Do as you wish with telegra.ph module!
 • This Command Is Available in goups and pms
 • This Command Can be used by everyone"""
 
-    PRIVATEBOT_TXT = f"""<b>HI {get} {message.user_mention}</b>"""
+    PRIVATEBOT_TXT = """<b>HI {get} {message.user_mention}</b>"""
 
     JSON_TXT ="""<b>JSON:</b>
 
