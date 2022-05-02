@@ -794,28 +794,28 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙸𝙾𝙽𝚂', callback_data='coct'),
-            InlineKeyboardButton('𝚂𝙾𝙽𝙶', callback_data='songs')
+            InlineKeyboardButton('⚙️ᴄᴏɴɴᴇᴄᴛɪᴏɴꜱ⚙️', callback_data='coct'),
+            InlineKeyboardButton('🎶𝚂𝙾𝙽𝙶🎶', callback_data='songs')
             ],[
-            InlineKeyboardButton('𝙴𝚇𝚃𝚁𝙰', callback_data='extra'),
+            InlineKeyboardButton('【﻿𝙴𝚇𝚃𝚁𝙰】', callback_data='extra'),
             InlineKeyboardButton('𝙿𝙰𝚂𝚃𝙴', callback_data='pastes')
             ],[
-            InlineKeyboardButton("𝙸𝙼𝙰𝙶𝙴", callback_data='image'),
-            InlineKeyboardButton('𝙵𝚄𝙽', callback_data='fun')
+            InlineKeyboardButton("★𝙸𝙼𝙰𝙶𝙴★", callback_data='image'),
+            InlineKeyboardButton('⡷⠂𝙵𝚄𝙽⠐⢾', callback_data='fun')
             ],[
-            InlineKeyboardButton('𝙹𝚂𝙾𝙽𝙴', callback_data='son'),
-            InlineKeyboardButton('𝙿𝙸𝙽𝙶', callback_data='pings')
+            InlineKeyboardButton('║▌║ 𝙹𝚂𝙾𝙽𝙴 ║▌║▌', callback_data='son'),
+            InlineKeyboardButton('⫷ 𝙿𝙸𝙽𝙶 ⫸', callback_data='pings')
             ],[
-            InlineKeyboardButton('𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙿𝙷', callback_data='tele'),
-            InlineKeyboardButton('DETAILS', callback_data='details')
+            InlineKeyboardButton('☆☆ 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙿𝙷 ☆☆', callback_data='tele'),
+            InlineKeyboardButton(']» 🅳🅴🆃🅰🅸🅻🆂 «[', callback_data='details')
             ],[
-            InlineKeyboardButton('𝚁𝙴𝙿𝙾𝚁𝚃', callback_data='report'),
-            InlineKeyboardButton('𝚂𝚃𝙸𝙲𝙺𝙴𝚁-𝙸𝙳', callback_data='sticker')
+            InlineKeyboardButton('▇ █ 𝚁𝙴𝙿𝙾𝚁𝚃 █ ▇ ', callback_data='report'),
+            InlineKeyboardButton('█►─═ 𝚂𝚃𝙸𝙲𝙺𝙴𝚁-𝙸𝙳 ═─◄█', callback_data='sticker')
             ],[
-            InlineKeyboardButton('𝚄𝚁𝙻-𝚂𝙷𝙾𝚁𝚃', callback_data='urlshort'),
-            InlineKeyboardButton('𝙶-𝚃𝚁𝙰𝙽𝚂', callback_data='gtrans')
+            InlineKeyboardButton('⫷ 𝚄𝚁𝙻-𝚂𝙷𝙾𝚁𝚃 ⫸', callback_data='urlshort'),
+            InlineKeyboardButton('▀▄▀▄ 𝙶-𝚃𝚁𝙰𝙽𝚂 ▄▀▄▀', callback_data='gtrans')
             ],[
-            InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚄𝚂', callback_data='stats'),
+            InlineKeyboardButton('🆂🆃🅰🆃🆄🆂', callback_data='stats'),
             InlineKeyboardButton("🔙BACK",  callback_data="start")
             ],[
             InlineKeyboardButton("🔐CLOSE", callback_data="close_data")
@@ -828,34 +828,34 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "hellp":
         buttons = [[
-            InlineKeyboardButton('𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙸𝙾𝙽𝚂', callback_data='coct'),
-            InlineKeyboardButton('𝚂𝙾𝙽𝙶', callback_data='songs')
+            InlineKeyboardButton('⚙️ᴄᴏɴɴᴇᴄᴛɪᴏɴꜱ⚙️', callback_data='coct'),
+            InlineKeyboardButton('🎶𝚂𝙾𝙽𝙶🎶', callback_data='songs')
             ],[
-            InlineKeyboardButton('𝙴𝚇𝚃𝚁𝙰', callback_data='extra'),
+            InlineKeyboardButton('【﻿𝙴𝚇𝚃𝚁𝙰】', callback_data='extra'),
             InlineKeyboardButton('𝙿𝙰𝚂𝚃𝙴', callback_data='pastes')
             ],[
-            InlineKeyboardButton("𝙸𝙼𝙰𝙶𝙴", callback_data='image'),
-            InlineKeyboardButton('𝙵𝚄𝙽', callback_data='fun')
+            InlineKeyboardButton("★𝙸𝙼𝙰𝙶𝙴★", callback_data='image'),
+            InlineKeyboardButton('⡷⠂𝙵𝚄𝙽⠐⢾', callback_data='fun')
             ],[
-            InlineKeyboardButton('𝙹𝚂𝙾𝙽𝙴', callback_data='son'),
-            InlineKeyboardButton('𝙿𝙸𝙽𝙶', callback_data='pings')
+            InlineKeyboardButton('║▌║ 𝙹𝚂𝙾𝙽𝙴 ║▌║▌', callback_data='son'),
+            InlineKeyboardButton('⫷ 𝙿𝙸𝙽𝙶 ⫸', callback_data='pings')
             ],[
-            InlineKeyboardButton('𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙿𝙷', callback_data='tele'),
-            InlineKeyboardButton('DETAILS', callback_data='details')
+            InlineKeyboardButton('☆☆ 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙿𝙷 ☆☆', callback_data='tele'),
+            InlineKeyboardButton(']» 🅳🅴🆃🅰🅸🅻🆂 «[', callback_data='details')
             ],[
-            InlineKeyboardButton('𝚁𝙴𝙿𝙾𝚁𝚃', callback_data='report'),
-            InlineKeyboardButton('𝚂𝚃𝙸𝙲𝙺𝙴𝚁-𝙸𝙳', callback_data='sticker')
+            InlineKeyboardButton('▇ █ 𝚁𝙴𝙿𝙾𝚁𝚃 █ ▇ ', callback_data='report'),
+            InlineKeyboardButton('█►─═ 𝚂𝚃𝙸𝙲𝙺𝙴𝚁-𝙸𝙳 ═─◄█', callback_data='sticker')
             ],[
-            InlineKeyboardButton('𝚄𝚁𝙻-𝚂𝙷𝙾𝚁𝚃', callback_data='urlshort'),
-            InlineKeyboardButton('𝙶-𝚃𝚁𝙰𝙽𝚂', callback_data='gtrans')
+            InlineKeyboardButton('⫷ 𝚄𝚁𝙻-𝚂𝙷𝙾𝚁𝚃 ⫸', callback_data='urlshort'),
+            InlineKeyboardButton('▀▄▀▄ 𝙶-𝚃𝚁𝙰𝙽𝚂 ▄▀▄▀', callback_data='gtrans')
             ],[
-            InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚄𝚂', callback_data='stats'),
+            InlineKeyboardButton('🆂🆃🅰🆃🆄🆂', callback_data='stats'),
             InlineKeyboardButton("🔙BACK",  callback_data="start")
             ],[
             InlineKeyboardButton("🔐CLOSE", callback_data="close_data")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.answer("𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝗍𝗈 𝗆𝗒 𝖧𝖾𝗅𝗉 𝗆𝗈𝖽𝗎𝗅𝖾")
+        await query.answer("★𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝗍𝗈 𝗆𝗒 𝖧𝖾𝗅𝗉 𝗆𝗈𝖽𝗎𝗅𝖾★")
         await query.message.edit_text(
             text=script.HELP_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
